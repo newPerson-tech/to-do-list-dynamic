@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <style>
+      .done {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <ul id="todo-list">
+      <!-- Todos will be added here by JavaScript -->
+    </ul>
+    <form id="todo-form">
+      <input
+        type="text"
+        id="todo-input"
+        placeholder="Enter new todo"
+        required
+      />
+      <button type="submit">Add Todo</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
