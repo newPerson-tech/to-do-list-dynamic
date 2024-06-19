@@ -1,5 +1,5 @@
 // Initial list of todos
-let todos = [
+const todos = [
   { text: "Learn JavaScript", done: false },
   { text: "Build a todo app", done: false },
 ];
